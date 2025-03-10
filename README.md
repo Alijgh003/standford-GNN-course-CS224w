@@ -11,7 +11,7 @@ We will then work together to transform the graph structure into a PyTorch tenso
 
 Finally, we will finish the first learning algorithm on graphs: a node embedding model. For simplicity, our model here is simpler than DeepWalk / node2vec algorithms taught in the lecture. But it's still rewarding and challenging, as we will write it from scratch via PyTorch.
 
-Colab 2 : introduction to pytorch geometric and ogd (open graph benchmark)
+## Colab 2 : introduction to pytorch geometric and ogd (open graph benchmark)
 In Colab 2, we have worked to construct our own graph neural network using PyTorch Geometric (PyG) and then apply that model on two Open Graph Benchmark (OGB) datasets. These two datasets will be used to benchmark your model's performance on two different graph-based tasks: 1) node property prediction, predicting properties of single nodes and 2) graph property prediction, predicting properties of entire graphs or subgraphs.
 
 First, we have learned how PyTorch Geometric stores graphs as PyTorch tensors.
